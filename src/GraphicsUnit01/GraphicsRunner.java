@@ -25,7 +25,9 @@ public class GraphicsRunner extends JFrame
 		
 		//add other classes to run them 
 		//BigHouse, Robot, or ShapePanel 
-                getContentPane().add(new BigHouse());
+                //getContentPane().add(new BigHouse());
+                //getContentPane().add(new ShapePanel());
+                getContentPane().add(new Robot());
 		setVisible(true);
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -39,6 +39,11 @@ public class BigHouse extends Canvas
       
       window.setColor(Color.GREEN);
       window.fillRect(110, 150, 600, 100);
-
+      
+      window.setColor(Color.WHITE);
+      window.fillRect(350, 500, 100, 500);
+      
+      window.fillRect(250, 280, 50, 50);
+      window.fillRect(500, 280, 50, 50);
    }
 }
